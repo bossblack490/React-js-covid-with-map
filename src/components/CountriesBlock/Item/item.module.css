@@ -1,0 +1,19 @@
+.country {
+    color: white;
+}
+
+.confirmed {
+    color: coral;
+}
+
+.recovered {
+    color: chartreuse;
+}
+
+.active {
+    color: #30d5c8;
+}
+
+.deaths {
+    color: #c8a2c8;
+}

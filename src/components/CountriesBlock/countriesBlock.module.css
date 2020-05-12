@@ -1,0 +1,69 @@
+#countriesBlock {
+    width: 600px;
+    height: 600px;
+    background-color: #505050;
+    padding: 20px;
+    overflow: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #707070;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #303030;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0f0f0f;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: none;
+}
+
+thead>tr {
+    background-color: #3d3d3d;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid;
+}
+
+.place {
+    color: white;
+}
+
+.confirmed {
+    color: coral;
+}
+
+.recovered {
+    color: chartreuse;
+}
+
+.active {
+    color: #30d5c8;
+}
+
+.deaths {
+    color: #c8a2c8;
+}
